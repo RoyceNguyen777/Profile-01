@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    padding: 30px;
+    font-size: 16px;
+    background-color: $dark-black;
+    font-family: sans-serif;
+    color: $white;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: $white;
+
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.heading_text {
+    text-align: center;
+    color: $white;
+    font-weight: bolder;
+    font-family: aboda ;
+    margin: 20px 0px;
+}

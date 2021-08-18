@@ -96,6 +96,11 @@ li {
     box-shadow: 2px 2px 40px #537895; }
     .banner-info-menu {
       padding: 30px; }
+      @media screen and (max-width: 768px) {
+        .banner-info-menu {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px 50px; } }
       .banner-info-menu-item {
         font-size: 25px;
         font-family: poppins;
@@ -105,6 +110,10 @@ li {
           color: #d8bea5; }
         .banner-info-menu-item:not(:first-child) {
           margin-left: 80px; }
+          @media screen and (max-width: 768px) {
+            .banner-info-menu-item:not(:first-child) {
+              margin-left: 0px;
+              text-align: center; } }
 
 .about {
   display: grid;
@@ -286,15 +295,21 @@ li {
       padding: 20px;
       line-height: 1.8;
       font-family: poppins;
-      font-size: 25px;
+      font-size: 20px;
       width: 100%;
       border-radius: 20px;
       margin-bottom: 40px;
       background-color: #161828;
       box-shadow: 0px 0px 20px #537895;
-      line-height: 3;
+      line-height: 2;
       position: relative;
       transition: all 0.3s ease-in-out; }
+      .about-project-achiment h1,
+      .about-project-achiment p {
+        margin: 20px 0px; }
+      .about-project-achiment a {
+        text-decoration: underline;
+        font-size: 25px; }
       .about-project-achiment > * {
         position: relative;
         z-index: 9; }
@@ -311,7 +326,7 @@ li {
         opacity: 0.8; }
       .about-project-achiment .swiper-container {
         width: 100%;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         text-align: center;
         font-family: aboda; }
       .about-project-achiment .swiper-slide {

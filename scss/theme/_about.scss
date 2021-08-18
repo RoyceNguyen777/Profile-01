@@ -245,6 +245,7 @@
         }
 
         &-achiment {
+            padding         : 20px;
             line-height     : 1.8;
             font-family     : poppins;
             font-size       : 20px;
@@ -256,6 +257,10 @@
             line-height     : 2;
             position        : relative;
             transition      : all 0.3s ease-in-out;
+
+            @media screen and (max-width:768px) {
+                padding: 0px;
+            }
 
             h1,
             p {
@@ -311,6 +316,11 @@
                 }
 
                 &>* {
+                    position: relative;
+                    z-index : 9;
+                }
+
+                a>img {
                     position: relative;
                     z-index : 9;
                 }

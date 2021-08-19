@@ -25,6 +25,12 @@
             font-family    : poppins, sans-serif;
             color          : $white;
 
+            @media screen and (max-width:321px) {
+                h1 {
+                    text-align: center;
+                }
+            }
+
             &-img {
                 border          : 2px solid $blue-light;
                 background-image: url("../assets/151314622_1584721031727752_8657890773798408670_n.jpg");
@@ -32,6 +38,8 @@
                 height          : 150px;
                 border-radius   : 50%;
                 margin-right    : 30px;
+
+
             }
         }
 

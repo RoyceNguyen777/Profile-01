@@ -1,5 +1,5 @@
 // Promise (Nhập Passwork)
-let pw = prompt("Xin hãy nhập Password để thấy thông tin CV");
+let pw = prompt("Xin hãy nhập Keyword để thấy thông tin CV");
 
 if (pw === null) {
     console.log(" ") 

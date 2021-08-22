@@ -2,7 +2,7 @@
 let pw = prompt("Xin hãy nhập Password để thấy thông tin CV");
 
 if (pw === null) {
-    console.log("sai") 
+    console.log(" ") 
 }
 
 let correctpw = 1994;

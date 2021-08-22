@@ -6,17 +6,24 @@
   font-family: aboda;
   src: url("../font/AGaramondPro-Regular.otf"); }
 
+@font-face {
+  font-family: Montserrat;
+  src: url("../font/Montserrat-Regular.ttf"); }
+
 * {
   margin: 0;
   padding: 0px;
   box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   overflow-x: hidden;
   padding: 30px;
   font-size: 16px;
   background-color: #1f2032;
-  font-family: sans-serif;
+  font-family: Montserrat;
   color: #ffff; }
   @media screen and (max-width: 768px) {
     body {

@@ -131,6 +131,10 @@ li {
               margin-left: 0px;
               text-align: center; } }
 
+.notifly {
+  text-align: center;
+  display: none; }
+
 .about {
   display: grid;
   grid-template-columns: 1fr 3fr;

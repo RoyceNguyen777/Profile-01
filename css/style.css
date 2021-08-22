@@ -318,11 +318,15 @@ li {
         font-size: 20px;
         list-style: disc;
         margin-left: 10%; }
+        .about-project-edu-item i {
+          color: #d8bea5; }
       .about-project-edu-exp {
         padding: 0% 10%; }
         .about-project-edu-exp-item {
           font-size: 20px;
           list-style: square; }
+          .about-project-edu-exp-item i {
+            color: #d8bea5; }
       .about-project-edu > * {
         position: relative;
         z-index: 9; }
@@ -383,6 +387,7 @@ li {
         margin-left: 40px;
         width: 35%;
         background-color: #161828;
+        margin-bottom: 70px;
         box-shadow: 0px 0px 20px #ffff;
         border-radius: 20px;
         position: relative;
